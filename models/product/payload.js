@@ -1,0 +1,72 @@
+const { C } = require('../../utils/constants');
+
+module.exports.products = [{
+  [C.NAME]: 'T_Shirt',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 1200,
+  [C.CODE]: '001',
+  [C.SKU]: 'T1200_001',
+},
+{
+  [C.NAME]: 'Shirt',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 1000,
+  [C.CODE]: '002',
+  [C.SKU]: 'T1000_002',
+},
+{
+  [C.NAME]: 'Jeans',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 2000,
+  [C.CODE]: '003',
+  [C.SKU]: 'T2000_003',
+},
+{
+  [C.NAME]: 'Boxer',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 100,
+  [C.CODE]: '004',
+  [C.SKU]: 'T100_004',
+},
+{
+  [C.NAME]: 'Shoes',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 1200,
+  [C.CODE]: '005',
+  [C.SKU]: 'T1200_005',
+},{
+  [C.NAME]: 'Classic T_Shirt',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 1200,
+  [C.CODE]: '006',
+  [C.SKU]: 'T1200_006',
+},
+{
+  [C.NAME]: 'Classic Shirt',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 1000,
+  [C.CODE]: '007',
+  [C.SKU]: 'T1000_007',
+},
+{
+  [C.NAME]: 'Classic Jeans',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 2000,
+  [C.CODE]: '008',
+  [C.SKU]: 'T2000_008',
+},
+{
+  [C.NAME]: 'Classic Boxer',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 100,
+  [C.CODE]: '009',
+  [C.SKU]: 'T100_009',
+},
+{
+  [C.NAME]: 'Classic Shoes',
+  [C.QUANTITY]: 10,
+  [C.PRICE]: 1200,
+  [C.CODE]: '010',
+  [C.SKU]: 'T1200_010',
+},
+];
